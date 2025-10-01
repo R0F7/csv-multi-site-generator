@@ -1,0 +1,82 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.contact span {
+  display: block;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.contact span strong {
+  color: #111827;
+}
+
+/* Responsive design */
+@media (min-width: 640px) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .contact span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container h2 {
+    font-size: 2.5rem;
+  }
+
+  .container p {
+    font-size: 1.25rem;
+  }
+
+  .hero {
+    font-size: 1.8rem;
+    padding: 3rem;
+  }
+}

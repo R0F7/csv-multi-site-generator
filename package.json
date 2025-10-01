@@ -1,0 +1,17 @@
+{
+  "name": "csv-multi-site-generator-react",
+  "version": "1.0.0",
+  "main": "start-all.js",
+  "scripts": {
+    "start": "node start-all.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "fs-extra": "^11.3.2"
+  }
+}
