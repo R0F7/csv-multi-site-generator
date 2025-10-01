@@ -38,7 +38,7 @@ project/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/csv-multi-site-generator.git
+   git clone https://github.com/R0F7/csv-multi-site-generator.git
    cd csv-multi-site-generator
 
 2. **Install root dependencies**
@@ -62,9 +62,9 @@ project/
    build/<domain>/
 
    Example:
-   build/foodexpress.com/index.html
-   build/techhubbd.com/index.html
-   build/bookbazaar.com/index.html
+   build/foodexpress.com
+   build/techhubbd.com
+   build/bookbazaar.com
 
 
 ## 📌 Notes
